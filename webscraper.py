@@ -111,21 +111,3 @@ class WebScraper():
     def print_price_size(self):
         for s, p in self.price_size_dict.items():
             print s, p
-
-
-if __name__ == '__main__':
-    # This code is intended for testing purposes.
-    # It will only run when explicitly called.
-    # It does not run when importing this file as a module.
-
-    # import doctest
-    # doctest.testmod(verbose=True)
-
-    """
-    from tirerackurls import re_11 as tire
-    ws = WebScraper(tire.brand, tire.model, MAIN_URL + tire.url)
-    """
-    RSR_URL = 'Hankook&tireModel=Ventus+R-S3'
-    ws = WebScraper('Hankook', 'R-S3', RSR_URL)
-    ws.make_request()
-    ws.print_size_list()
