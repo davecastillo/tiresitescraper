@@ -1,0 +1,6 @@
+PROTOCOL = 'http'
+IP = '130.14.29.110'
+PORT = ':80'
+
+
+PROXIES = {PROTOCOL: IP+PORT}
