@@ -7,7 +7,7 @@ from proxy_servers import proxy
 
 class WebScraper():
     """This tire site scraper is used to inherit basic scaping abilities
-    for childredn tire site scrapers.
+    for children tire site scrapers.
     """
 
     def __init__(self, main_url, url, size_element,
